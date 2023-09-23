@@ -26,6 +26,7 @@ def main():
 		else:
 			print("'yes' is wrong answer ;(. Correct answer was 'no'.")
 			print(f"Let's try again, {name}!")
+			count = 0
 	print(f'Congratulations, {name}')
 
 
