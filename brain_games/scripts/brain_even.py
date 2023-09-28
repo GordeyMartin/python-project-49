@@ -24,7 +24,8 @@ def main():
 			count += 1
 			print('Correct!')
 		else:
-			print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+			print(f"'{u_answer}' is wrong answer ;(. Correct 
+answer was '{r_answer}'.")
 			print(f"Let's try again, {name}!")
 			count = 0
 	print(f'Congratulations, {name}')
