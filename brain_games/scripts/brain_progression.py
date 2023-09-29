@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 import sys
-import math
 from brain_games import cli
 from brain_games import game_system
 sys.path.append("python-project-49/brain_games")
