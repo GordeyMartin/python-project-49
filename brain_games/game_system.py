@@ -16,4 +16,5 @@ def game_sys(number,q,right):
         print(f"'{u_answer}' is wrong answer ;(. Correct answer was '{right}’.")
         print(f"Let's try again, {cli.name}!")
         number = 0
+        exit()
         return number
