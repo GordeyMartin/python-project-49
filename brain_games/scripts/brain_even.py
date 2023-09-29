@@ -20,7 +20,7 @@ def main():
 		number = random.randint(1,40)
 		r_answer = ifeven(number)
 		count = game_system.game_sys(count,number,r_answer)
-	print(f'Congratulations, {cli.name}')
+	print(f'Congratulations, {cli.name}!')
 
 
 if __name__ == '__main__':

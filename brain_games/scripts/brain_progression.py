@@ -28,7 +28,7 @@ def main():
             question = question + str(i) + " "
 
         count = game_system.game_sys(count,question,r_answer)
-    print(f'Congratulations, {cli.name}')
+    print(f'Congratulations, {cli.name}!')
 
 
 if __name__ == '__main__':
