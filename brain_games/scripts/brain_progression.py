@@ -17,7 +17,7 @@ def main():
         l_numb = [f_numb]
         step = random.randint(1, 8)
         for i in range(9):
-            l_numb.append(l_numb[-1]+step)
+            l_numb.append(l_numb[-1] + step)
 
         mis = random.randint(0, 9)
         l_copy = l_numb.copy()
