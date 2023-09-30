@@ -21,7 +21,7 @@ def main():
         mis = random.randint(0,9)
         l_copy = l_numb.copy()
         r_answer = str(l_copy[mis])
-        l_numb[mis] = "..."
+        l_numb[mis] = ".."
 
         question = ""
         for i in l_numb:
