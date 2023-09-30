@@ -14,7 +14,7 @@ def main():
     while count < 3:
         f_number = random.randint(1,40)
         s_number = random.randint(1,40)
-        op_sign = random.randint(0,3)
+        op_sign = random.randint(0,2)
         if op_sign == 0:
             r_answer = str(f_number + s_number)
             question = f"{f_number} + {s_number}"
