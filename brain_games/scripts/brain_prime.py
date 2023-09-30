@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import random
 import sys
-import math
 from brain_games import cli
 from brain_games import game_system
 sys.path.append("python-project-49/brain_games")
 sys.path.append("brain_games")
+
 
 def main():
     def is_prime(a):
@@ -21,15 +21,15 @@ def main():
 
     count = 0
     while count < 3:
-        num = random.randint(0,40)
+        num = random.randint(0, 40)
         question = str(num)
-        
-        if is_prime(num) == True:
+
+        if is_prime(num) is True:
             r_answer = "yes"
         else:
             r_answer = "no"
 
-        count = game_system.game_sys(count,question,r_answer)
+        count = game_system.game_sys(count, question, r_answer)
     print(f'Congratulations, {cli.name}!')
 
 
